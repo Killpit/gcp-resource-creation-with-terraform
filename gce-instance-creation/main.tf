@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "terraform-gcp" {
-  name         = "my-instance"
+  name         = "my-instance" #you can change instance name 
   machine_type = "e2-micro"
   zone         = "us-central1-a"
 
