@@ -10,7 +10,7 @@ resource "google_compute_instance" "terraform-gcp" {
 
   boot_disk {
     initialize_params {
-      image = "ubuntu-minimal-2204-lts"
+      image = "ubuntu-minimal-2204-lts" #you can change the OS of the GCE instance
     }
   }
 
